@@ -49,17 +49,41 @@
         .titular{
             padding-top: 440px;
         }
+        .titular{
+            position: relative;
+            z-index: 2;
+        }
+
+        #videoBG{
+            z-index: 1;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .titular {
+                bottom: 0;
+                left: 0;
+                padding: 0 15px;
+                padding-top: inherit;
+                position: absolute;
+                top: inherit;                
+                width: 100%;
+            }
+            #intro2019 .container{
+                height: 85vh;
+            }
+        }
+
     </style>
 
 </head>
 <body>
 
     <div id="social">
-        <button id="fb" class="sharer button" data-sharer="facebook" data-hashtag="" data-url="#">Facebook</button>
+        <button id="fb" class="sharer button" data-sharer="facebook" data-hashtag="" data-url="https://elcomercio.pe/luces/oscar-2025-predicciones-ganadores-categorias-principales-trivia-premios-academia-especdis-noticia/">Facebook</button>
 
-        <button id="wst" class="sharer button" data-sharer="whatsapp" data-title="El Comercio" data-url="#">Whatsapp</button>
+        <button id="wst" class="sharer button" data-sharer="whatsapp" data-title="El Comercio" data-url="https://elcomercio.pe/luces/oscar-2025-predicciones-ganadores-categorias-principales-trivia-premios-academia-especdis-noticia/">Whatsapp</button>
 
-        <button id="tw" class="sharer button" data-sharer="twitter" data-title="El Comercio" data-hashtags="" data-via='elcomercio_peru' data-url="#">Twitter</button>
+        <button id="tw" class="sharer button" data-sharer="twitter" data-title="El Comercio" data-hashtags="" data-via='elcomercio_peru' data-url="https://elcomercio.pe/luces/oscar-2025-predicciones-ganadores-categorias-principales-trivia-premios-academia-especdis-noticia/">Twitter</button>
     </div>
 
     <section id="intro2019">
@@ -73,8 +97,8 @@
                 <img class="flecha" src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/resumen-fotos-2023/img/flecha-bajar-blanca.png" alt="" width="100%">
             </div>
 
-            <video id="videoBG" poster="https://raw.githubusercontent.com/yac130/agenda-conciertos-el-comercio/main/bg-portada-oscar-2024.gif" autoplay muted loop playsinline>
-                <source src="https://github.com/yac130/agenda-conciertos-el-comercio/raw/main/bg-portada-oscar-2024.mp4" type="video/mp4">
+            <video id="videoBG" poster="https://nuevasnarrativasec.github.io/premios-oscar-2025/img/bg-portada-oscar-2025.jpg" autoplay muted loop playsinline>
+                <source src="https://nuevasnarrativasec.github.io/premios-oscar-2025/video/bg-portada-oscar-2025-2.mp4" type="video/mp4">
             </video>  
         </div>
     </section>
@@ -1587,11 +1611,11 @@
     <!-- inject:js -->
     <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/premios-oscar-2021-has-pronosticos-gana-juego-mesa-gracias-cinescape-nndd-ecvisual-ecpm/js/jquery-1.9.1.js"></script>
     <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/alan-garcia-una-vida-de-portada-ecpm/js/sharer.min.js"></script> 
-    <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/premios-oscar-2021-has-pronosticos-gana-juego-mesa-gracias-cinescape-nndd-ecvisual-ecpm/js/tabletop.min.js"></script>
+    <!--<script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/premios-oscar-2021-has-pronosticos-gana-juego-mesa-gracias-cinescape-nndd-ecvisual-ecpm/js/tabletop.min.js"></script>-->
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/premios-oscar-2023/js/main.js?v004"></script>
     <!-- <script src="js/main.js?v2"></script> -->
-    <script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/premios-oscar-2021-has-pronosticos-gana-juego-mesa-gracias-cinescape-nndd-ecvisual-ecpm/js/trailer.js?v003"></script>
+    <!--<script src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/premios-oscar-2021-has-pronosticos-gana-juego-mesa-gracias-cinescape-nndd-ecvisual-ecpm/js/trailer.js?v003"></script>-->
     <!-- endinject -->
     <!--<script src="/especiales/elementos-comunes/js/contador-signwall.js"></script>-->
 
